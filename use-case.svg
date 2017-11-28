@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -18 642 848' xmlns:xlink='http://www.w3.org/1999/xlink' width='642.0px' font-size='13' font-family='Arial, LiberationSans' version='1.1' height='848.0px'>
+  <defs>
+<style type='text/css'><![CDATA[svg text {text-rendering: geometricPrecision;}]]></style>    <linearGradient y1='0.0%' x1='0.0%' y2='100.0%' x2='0.0%' id='gradient-ffffff-eeeeee' spreadMethod='pad'>
+      <stop stop-opacity='1' offset='0' stop-color='rgb(255, 255, 255)'/>
+      <stop stop-opacity='1' offset='100' stop-color='rgb(238, 238, 238)'/>
+    </linearGradient>
+  </defs>
+  <desc>UsecaseDiagram</desc>
+  <g transform='translate(26.0,449.0)' id='_aCcwsLDbEDWjKvJy_BXQmQ'>
+    <circle r='6.5' cx='20.0' cy='8.5' stroke-width='1.5' fill='rgb(255, 255, 255)' stroke='rgb(136, 136, 136)' look='allInOne'/>
+    <line y1='15.0' x1='20.0' y2='45.5' x2='20.0' stroke-width='1.5' fill='rgb(255, 255, 255)' stroke='rgb(136, 136, 136)' look='allInOne'/>
+    <line y1='26.0' x1='6.0' y2='26.0' x2='34.0' stroke-width='1.5' fill='rgb(255, 255, 255)' stroke='rgb(136, 136, 136)' look='allInOne'/>
+    <line y1='45.5' x1='20.0' y2='63.0' x2='9.2' stroke-width='1.5' fill='rgb(255, 255, 255)' stroke='rgb(136, 136, 136)' look='allInOne'/>
+    <line y1='45.5' x1='20.0' y2='63.0' x2='30.799999999999997' fill='rgb(255, 255, 255)' stroke='rgb(136, 136, 136)' look='allInOne'/>
+    <text text-anchor='middle' x='20.0' y='78.0' font-size='13' font-style='normal' fill='rgb(0, 0, 0)'>Uživatel</text>
+  </g>
+  <g transform='translate(262.0,80.0)' id='_jpuM8bDbEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,21.0)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Vyhledat slovo</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(477.0,12.0)' id='_nOsIgLDbEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,14.5)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Vyhledat podle</text>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='26.0' font-size='13' fill='rgb(3, 54, 86)'>ID</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(477.0,81.0)' id='_oIlk8bDbEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,14.5)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Vyhledat podle</text>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='26.0' font-size='13' fill='rgb(3, 54, 86)'>výrazu</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(477.0,140.0)' id='_pPUjgbDbEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,14.5)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Vyhledat podle</text>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='26.0' font-size='13' fill='rgb(3, 54, 86)'>překladu</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(262.0,265.0)' id='_uJkP8bDbEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,21.0)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Zobrazit slovo</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(477.0,222.0)' id='_wY7DcbDbEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,21.0)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Upravit slovo</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(477.0,289.0)' id='_zxED8bDbEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,21.0)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Přidat do sady</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(477.0,354.0)' id='_2Q_DAbDbEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,21.0)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Odebrat ze sady</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(262.0,392.0)' id='_DWFRALDcEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,21.0)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Zobrazit sadu</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(262.0,461.0)' id='_LpAwgbDcEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,14.5)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Importovat/</text>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='26.0' font-size='13' fill='rgb(3, 54, 86)'>exportovat sadu</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(262.0,531.0)' id='_OBdOkLDcEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,14.5)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Odstranit/</text>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='26.0' font-size='13' fill='rgb(3, 54, 86)'>vytvořit sadu</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(262.0,604.0)' id='_Rq1JAbDcEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,21.0)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Vytvořit lekci</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(477.0,605.0)' id='_T7VMAbDcEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,21.0)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Přidat sadu</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(262.0,672.0)' id='_aWi78bDcEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,21.0)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Spustit lekci</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(477.0,745.0)' id='_cuAikLDcEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,21.0)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Vyhodnotit lekci</text>
+      </g>
+    </g>
+  </g>
+  <g transform='translate(262.0,744.0)' id='_kVbm8bDcEDWjKvJy_BXQmQ'>
+    <ellipse cx='50.0' cy='27.5' rx='50.0' ry='27.5' stroke-width='1.0' fill='url(#gradient-ffffff-eeeeee)' stroke='rgb(187, 187, 187)' look='allInOne'/>
+    <g transform='translate(0.0,21.0)'>
+      <g transform='translate(0.0,0.0)'>
+        <text font-weight='bold' text-anchor='middle' x='50.0' y='13.0' font-size='13' fill='rgb(3, 54, 86)'>Odstranit lekci</text>
+      </g>
+    </g>
+  </g>
+  <text text-anchor='middle' x='313.0' y='201.0' fill='rgb(0, 0, 0)'>« include »</text>
+  <text text-anchor='middle' x='313.0' y='365.0' fill='rgb(0, 0, 0)'>« include »</text>
+  <text text-anchor='middle' x='429.0' y='623.0' fill='rgb(0, 0, 0)'>« include »</text>
+  <text text-anchor='middle' x='428.0' y='328.0' fill='rgb(0, 0, 0)'>« extend »</text>
+  <text text-anchor='middle' x='428.0' y='296.0' fill='rgb(0, 0, 0)'>« extend »</text>
+  <text text-anchor='middle' x='428.0' y='263.0' fill='rgb(0, 0, 0)'>« extend »</text>
+  <text text-anchor='middle' x='428.0' y='727.0' fill='rgb(0, 0, 0)'>« extend »</text>
+  <text text-anchor='middle' x='505.0' y='688.0' fill='rgb(0, 0, 0)'>« include »</text>
+  <g id='_rrpcALDbEDWjKvJy_BXQmQ'>
+    <line y1='154.0' x1='477.0' y2='121.0' x2='362.0' id='_rrqqILDbEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+    <polygon transform='translate(362.0,121.0) rotate(-73.98882252119154)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-6.0,10.0 0.0,0.0 6.0,10.0'/>
+  </g>
+  <g id='_sBAA8LDbEDWjKvJy_BXQmQ'>
+    <line y1='108.0' x1='477.0' y2='108.0' x2='362.0' id='_sBAoBLDbEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+    <polygon transform='translate(362.0,108.0) rotate(-90.0)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-6.0,10.0 0.0,0.0 6.0,10.0'/>
+  </g>
+  <g id='_sV1BcLDbEDWjKvJy_BXQmQ'>
+    <line y1='55.0' x1='477.0' y2='92.0' x2='362.0' id='_sV1ogbDbEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+    <polygon transform='translate(362.0,92.0) rotate(-107.83501494266807)' stroke-width='1.0' fill='rgb(255, 255, 255)' stroke='rgb(0, 0, 0)' points='-6.0,10.0 0.0,0.0 6.0,10.0'/>
+  </g>
+  <g id='_vNUL8LDbEDWjKvJy_BXQmQ'>
+    <polyline transform='translate(312.0,135.0) rotate(-0.0)' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='265.0' x1='312.0' y2='135.0' x2='312.0' stroke-dasharray='1, 2' id='_vNVaELDbEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_FPEy8LDcEDWjKvJy_BXQmQ'>
+    <polyline transform='translate(312.0,320.0) rotate(-0.0)' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='392.0' x1='312.0' y2='320.0' x2='312.0' stroke-dasharray='1, 2' id='_FPFaAbDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_U2sBALDcEDWjKvJy_BXQmQ'>
+    <polyline transform='translate(477.0,632.0) rotate(90.0)' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='632.0' x1='362.0' y2='632.0' x2='477.0' stroke-dasharray='1, 2' id='_U2soEbDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_XKnLcLDcEDWjKvJy_BXQmQ'>
+    <polyline transform='translate(362.0,313.0) rotate(-67.34476729132021)' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='361.0' x1='477.0' y2='313.0' x2='362.0' stroke-dasharray='1, 2' id='_XKoZkLDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_Xd2QgLDcEDWjKvJy_BXQmQ'>
+    <polyline transform='translate(362.0,298.0) rotate(-83.55046529615774)' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='311.0' x1='477.0' y2='298.0' x2='362.0' stroke-dasharray='1, 2' id='_Xd23krDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_X0qOALDcEDWjKvJy_BXQmQ'>
+    <polyline transform='translate(362.0,283.0) rotate(-101.30993247402021)' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='260.0' x1='477.0' y2='283.0' x2='362.0' stroke-dasharray='1, 2' id='_X0q1ErDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_eO5GgLDcEDWjKvJy_BXQmQ'>
+    <polyline transform='translate(362.0,716.0) rotate(-70.82099197418928)' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='756.0' x1='477.0' y2='716.0' x2='362.0' stroke-dasharray='1, 2' id='_eO5tkbDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_u_q8EbDcEDWjKvJy_BXQmQ'>
+    <line y1='460.0' x1='66.0' y2='135.0' x2='293.0' id='_u_rjIrDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_vWKwgbDcEDWjKvJy_BXQmQ'>
+    <line y1='474.0' x1='66.0' y2='320.0' x2='275.0' id='_vWLXkLDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_vpPdgrDcEDWjKvJy_BXQmQ'>
+    <line y1='483.0' x1='66.0' y2='432.0' x2='262.0' id='_vpQEkbDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_wC4FgrDcEDWjKvJy_BXQmQ'>
+    <line y1='489.0' x1='66.0' y2='489.0' x2='262.0' id='_wC4skbDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_waJWArDcEDWjKvJy_BXQmQ'>
+    <line y1='494.0' x1='66.0' y2='545.0' x2='262.0' id='_waJ9EbDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_wwRXArDcEDWjKvJy_BXQmQ'>
+    <line y1='499.0' x1='66.0' y2='605.0' x2='262.0' id='_wwR-EbDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_xEHgEbDcEDWjKvJy_BXQmQ'>
+    <line y1='504.0' x1='66.0' y2='672.0' x2='276.0' id='_xEIHILDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_xfWqkbDcEDWjKvJy_BXQmQ'>
+    <line y1='510.0' x1='66.0' y2='744.0' x2='285.0' id='_xfWqlLDcEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_DYDKcLDdEDWjKvJy_BXQmQ'>
+    <line y1='700.0' x1='362.0' y2='700.0' x2='608.0' stroke-dasharray='1, 2' id='_DYDxgrDdEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_DYDKcLDdEDWjKvJy_BXQmQ'>
+    <polyline transform='translate(362.0,420.0) rotate(-90.0)' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)' points='-5.0,10.0 0.0,0.0 5.0,10.0'/>
+    <line y1='420.0' x1='602.0' y2='420.0' x2='362.0' stroke-dasharray='1, 2' id='_EfqSwbDdEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+  <g id='_DYDKcLDdEDWjKvJy_BXQmQ'>
+    <line y1='700.0' x1='608.0' y2='420.0' x2='602.0' stroke-dasharray='1, 2' id='_FhBCELDdEDWjKvJy_BXQmQ' stroke-width='1.0' fill='none' stroke='rgb(0, 0, 0)'/>
+  </g>
+</svg>

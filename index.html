@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="cs" xml:lang="cs" class="no-js">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Aleš Trunda alestrunda.cz">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin-ext" rel="stylesheet">
+    
+    <title>YDOVY kolokvium</title>
+    
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0 auto;
+            padding: 15px 25px;
+            max-width: 1200px;
+            font-family: 'Open Sans', sans-serif;
+            color: #333;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin: 0 0 30px;
+        }
+
+        h2 {
+            font-size: 40px;
+            margin: 0 0 30px;
+        }
+
+        h3 {
+            font-size: 25px;
+            margin: 0 0 20px;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            margin: 0 auto 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+        }
+
+        table td,
+        table th {
+            padding: 6px 12px;
+            border: 1px solid #888;
+        }
+
+        table td.size-1 {
+            width: 30%;
+        }
+
+        table td.size-2 {
+            width: 20%;
+        }
+
+        table thead {
+            font-weight: 600;
+            text-align: center;
+            background-color: rgba(0,0,255,0.05);
+        }
+
+        .section-delimiter {
+            height: 140px;
+        }
+
+        .section-delimiter-small {
+            height: 70px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Výukový slovník</h1>
+    <p class="text-center">Aplikace výukový slovník umožňuje vyhledávání slovíček, vybraná slovíčka lze seskupovat do sad slovíček (např. "oblíbená slovíčka", "slovíčka, která chci zítra procvičit", "téma cestování"). Uživatel si může následně spustit výukovou lekci, která se skládá z vybraných sad. Tyto sady se uživateli postupně vhodným stylem zobrazují, uživatel na to nějak reaguje (zadá překlad, z překladu uhodne slovíčko apod.), následně se lekce vyhodnotí.</p>
+
+    <div class="section-delimiter-small"></div>
+
+    <h2>Případy užití</h2>
+    <h3>Diagram</h3>
+    <img src="use-case.svg" alt="diagram">
+
+    <h3>Tabulka</h3>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Případ užití</th>
+                <th colspan="2">Zajišťuje</th>
+            </tr>
+            <tr>
+                <th>Třída</th>
+                <th>Operace</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vyhledat slovo</td>
+                <td>slovník</td>
+                <td>
+                    vyhledatSlovoDleID<br>
+                    vyhledatSlovoDleVýrazu<br>
+                    vyhledatSlovoDlePřekladu
+                </td>
+            </tr>
+            <tr>
+                <td>Zobrazit slovo</td>
+                <td>slovo</td>
+                <td>zobrazit</td>
+            </tr>
+            <tr>
+                <td>Upravit slovo</td>
+                <td>slovník</td>
+                <td>upravitSlovo</td>
+            </tr>
+            <tr>
+                <td>Přidat slovo do sady</td>
+                <td>sada</td>
+                <td>přidatSlovo</td>
+            </tr>
+            <tr>
+                <td>Odebrat slovo ze sady</td>
+                <td>sada</td>
+                <td>odebratSlovo</td>
+            </tr>
+            <tr>
+                <td>Zobrazit sadu</td>
+                <td>sada</td>
+                <td>zobrazit</td>
+            </tr>
+            <tr>
+                <td>Importovat sadu</td>
+                <td>sada</td>
+                <td>importovat</td>
+            </tr>
+            <tr>
+                <td>Exportovat sadu</td>
+                <td>sada</td>
+                <td>exportovat</td>
+            </tr>
+            <tr>
+                <td>Vytvořit sadu</td>
+                <td>uživatel</td>
+                <td>vytvořitSadu</td>
+            </tr>
+            <tr>
+                <td>Odstranit sadu</td>
+                <td>uživatel</td>
+                <td>odstranitSadu</td>
+            </tr>
+            <tr>
+                <td>Vytvořit lekci</td>
+                <td>uživatel</td>
+                <td>vytvořitLekci</td>
+            </tr>
+            <tr>
+                <td>Přidat sadu</td>
+                <td>lekce</td>
+                <td>přidatSadu</td>
+            </tr>
+            <tr>
+                <td>Spustit lekci</td>
+                <td>uživatel</td>
+                <td>spustitLekci</td>
+            </tr>
+            <tr>
+                <td>Vyhodnotit lekci</td>
+                <td>uživatel</td>
+                <td>vyhodnotitLekci</td>
+            </tr>
+            <tr>
+                <td>Odstranit lekci</td>
+                <td>uživatel</td>
+                <td>odstranitLekci</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="section-delimiter"></div>
+
+
+    <h2>Třídy</h2>
+    <h3>Diagram</h3>
+    <img src="class-diagram.svg" alt="diagram">
+
+    <h3>Tabulka</h3>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" rowspan="2">Uživatel</th>
+                <th colspan="2">Spolupracuje</th>
+            </tr>
+            <tr>
+                <th>Třída</th>
+                <th>Operace</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="size-1">vytvořitSadu</td>
+                <td class="size-1">Vytvoří objekt <em>Sada</em> a přidá jej do seznamu <em>sady</em>.</td>
+                <td class="size-2"></td>
+                <td class="size-2"></td>
+            </tr>
+            <tr>
+                <td>odstranitSadu</td>
+                <td>Odstraní vybranou <em>Sadu</em> ze seznamu <em>sady</em>.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>vytvořitLekci</td>
+                <td>Vytvoří objekt <em>Lekce</em> a přidá jej do seznamu <em>lekce</em>. K vytvořené lekci přidá zadané sady pomocí metody <em>přidatSadu</em> ve třídě <em>Lekce</em>.</td>
+                <td>Lekce</td>
+                <td>přidatSadu</td>
+            </tr>
+            <tr>
+                <td>spustitLekci</td>
+                <td>Vyvolá a zobrazí vybranou <em>Lekci</em>.</td>
+                <td>Lekce</td>
+                <td>spustit</td>
+            </tr>
+            <tr>
+                <td>vyhodnotitLekci</td>
+                <td>Vypočítá úspěšnost splnění vybrané <em>Lekce</em> za použití metody <em>vyhodnotit</em> u třídy <em>Lekce</em>. Vrací vypočítané ohodnocení.</td>
+                <td>Lekce</td>
+                <td>vyhodnotit</td>
+            </tr>
+            <tr>
+                <td>odstranitLekci</td>
+                <td>Odstraní vybranou <em>Lekci</em> ze seznamu <em>lekce</em>.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>vyhledatSlovo</td>
+                <td>Vyhledá slovo dle zadaného <em>výrazu</em>, nalezený objekt typu <em>Slovo</em> vrací.</td>
+                <td>Slovník</td>
+                <td>vyhledatSlovoDleVýrazu</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" rowspan="2">Sada</th>
+                <th colspan="2">Spolupracuje</th>
+            </tr>
+            <tr>
+                <th>Třída</th>
+                <th>Operace</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>přidatSlovo</td>
+                <td>Přídá <em>Slovo</em> do seznamu <em>slova</em>.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>odebratSlovo</td>
+                <td>Odstraní vybrané <em>Slovo</em> ze seznamu <em>slova</em>.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+            <tr>
+                <td class="size-1" rowspan="2">zobrazit</td>
+                <td class="size-1" rowspan="2">Pro všechna slova v sadě zavolá <em>vyhledatSlovoDleID</em> ve třídě <em>slovník</em>, získané <em>Slovo</em> zobrazí pomocí metody <em>zobrazit</em> ve třídě <em>Slovo</em>.</td>
+                <td class="size-2">Slovník</td>
+                <td class="size-2">vyhledatSlovoDleID</td>
+            </tr>
+            <tr>
+                <td>Slovo</td>
+                <td>zobrazit</td>
+            </tr>
+                <td>importovat</td>
+                <td>Importuje seznam <em>slova</em>.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>exportovat</td>
+                <td>Exportuje seznam <em>slova</em>.</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" rowspan="2">Lekce</th>
+                <th colspan="2">Spolupracuje</th>
+            </tr>
+            <tr>
+                <th>Třída</th>
+                <th>Operace</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="size-1">spustit</td>
+                <td class="size-1">Spustí lekci, pro zobrazení vybraných sad slov používá metodu <em>zobrazit</em> ve třídě <em>Sada</em>.</td>
+                <td class="size-2">Sada</td>
+                <td class="size-2">zobrazit</td>
+            </tr>
+            <tr>
+                <td>přidatSadu</td>
+                <td>Přidá vybraný objekt <em>Sada</em> do atributu <em>sady</em>.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>vyhodnotit</td>
+                <td>Vyhodnotí úspěšnost - pro každou sadu slov zjistí, zda zadaný překlad slov je správný. Vypočítané ohodnocení vrací.</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" rowspan="2">Slovník</th>
+                <th colspan="2">Spolupracuje</th>
+            </tr>
+            <tr>
+                <th>Třída</th>
+                <th>Operace</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="size-1">vyhledatSlovoDleID</td>
+                <td class="size-1">Vyhledá slovo podle ID. Vrací nalezené <em>Slovo</em>, v případě neúspěchu null.</td>
+                <td class="size-2"></td>
+                <td class="size-2"></td>
+            </tr>
+            <tr>
+                <td>vyhledatSlovoDleVýrazu</td>
+                <td>Vyhledá slovo podle výrazu. Vrací nalezené <em>Slovo</em>, v případě neúspěchu null.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>vyhledatSlovoDlePřekladu</td>
+                <td>Vyhledá slovo podle překladu. Vrací nalezené <em>Slovo</em>, v případě neúspěchu null.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>upravitSlovo</td>
+                <td>Upraví zadané slovo pomocí metody <em>nastavitPřeklad</em> ve třídě <em>Slovo</em>.</td>
+                <td>Slovo</td>
+                <td>nastavitPřeklad</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2" rowspan="2">Slovo</th>
+                <th colspan="2">Spolupracuje</th>
+            </tr>
+            <tr>
+                <td>Třída</td>
+                <td>Operace</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="size-1">zobrazit</td>
+                <td class="size-1">Vrátí popis slova.</td>
+                <td class="size-2"></td>
+                <td class="size-2"></td>
+            </tr>
+            <tr>
+                <td>překlad</td>
+                <td>Vrátí překlad slova.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>výraz</td>
+                <td>Vrátí výraz slova.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>nastavitPřeklad</td>
+                <td>Nastaví nový překlad slova.</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
