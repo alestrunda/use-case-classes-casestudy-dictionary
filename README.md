@@ -1,9 +1,10 @@
-# use-case-classes-casestudy-dictionary
+# OPP case study for Dictionary application
 
 Simple use-case and classes case study, including diagrams and tables.
 
-**Subject**: Dictionary  
+School project.
+
+**Application**: Dictionary  
 **Language**: Czech  
 **Made in**: HTML/CSS for content, SVG for diagrams  
-
-YDOVY/3W-2017/UPOL
+**School Subject**: YDOVY/3W-2017/UPOL
